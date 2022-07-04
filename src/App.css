@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+input{
+    font-size:44px;
+    border-radius:0 0 10px 10px;
+}
+.inputSearch {
+  justify-content: center;
+  display: flex;
+}
+.searchButton {
+  border-radius:0 0 10px 10px;
+  margin-left: 2px;
+  background-color: white;
+}
+.container{
+  justify-content: center;
+  display: flex;
+  border: 1px solid black;
+  margin-top: 1%;
+  height: 400px;
+}
+.weatherContainer{
+    flex: 1;
+    border: 1px solid black;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+}
+.weatherDisplay{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 60px;
+  flex-direction: column;
+}
+.cityName {
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-weight:bold;
+}
+.containerFavorite {
+  display: flex;
+  justify-content: center
+}
+.contentFavorite {
+  display: flex;
+  border: 1px solid black;
+  height: 100px;
+  width: 70%;
+  margin: 10px;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
